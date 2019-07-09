@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 
-class Posts extends Component{
+class NotARoute extends Component{
     constructor(props){
         super(props);
 
@@ -17,7 +17,7 @@ class Posts extends Component{
     // ---------------------RENDER---------------------//
     render(){
         return(
-            <div>Run</div>
+            <div></div>
         )
     }
 }
@@ -29,5 +29,5 @@ export default connect(state => ({
     (dispatch) => ({
       actions: bindActionCreators(Actions, dispatch)
     })
-  )(Posts);
+  )(NotARoute);
   
