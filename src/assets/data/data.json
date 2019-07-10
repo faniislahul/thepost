@@ -1,0 +1,56 @@
+[
+  { 
+    "reg_dt": "Jul 09 2019 23:33:33",
+    "likes": 10,
+    "bookmarked": false,
+    "author": "John Webber",
+    "id": 1,
+    "title": "The first electric Mini helps explain why BMW’s CEO just quit",
+    "body": "BMW has unveiled the first all-electric Mini Cooper. Coming in early 2020, the car will start at around $35,000 and travel 235 kilometers (146 miles) per charge. Compared to similarly priced EVs on the road now with more than 200 miles of range, like the Kona Electric or the Tesla Model 3, the Mini’s mileage figure looks paltry. It will only look worse next year as more capable electric cars hit the road, and the Mini gets a more realistic EPA mileage rating. It’s a curious thing to see from a company that was early to electric cars, and it helps explain why BMW’s CEO Harald Krueger resigned last week. <br /> <br /> Krueger was BMW’s CEO for four years, coming in not long after the company’s i3 electric crossover SUV hit the market. But in a message to employees on his way out the door last week, he reportedly cited the “enormous changes” happening in the auto industry as a reason for leaving. BMW, it seems, fell behind the curve on Krueger’s watch."
+  },
+  {
+    "reg_dt": "Jul 05 2019 06:33:33",
+    "likes": 89,
+    "bookmarked": false,
+    "author": "Max Payne",
+    "id": 2,
+    "title": "Uber Comfort lets you request extra legroom and crank up the AC before pickup",
+    "body": "Uber is rolling out a new way to request extra legroom, quiet cars, and other amenities that are typically associated with its higher-priced Uber Black service. Dubbed Uber Comfort, the new service will be available today in over 40 markets in North America.<br /> <br /> Uber Comfort is presented as a whole new product category in the app, alongside Uber X, Uber Pool, Uber Black, Uber Black SUV, and Uber XL. (Uber’s product lineup varies from city to city.) Think of it as fancier than Uber X, but less fancy than Uber Black. It’s also more expensive: riders can expect to pay around 20 to 40 percent more than a typical Uber X trip, according to a spokesperson."
+  },
+  {
+    "reg_dt": "Jun 23 2019 07:33:33",
+    "likes": 30,
+    "bookmarked": false,
+    "author": "David Brewster",
+    "id": 3,
+    "title": "Thousands of Android apps can track your phone — even if you deny permissions",
+    "body": "When you explicitly tell an Android app, “No, you don’t have permission to track my phone,” you probably expect that it won’t have abilities that let it do that. But researchers say that thousands of apps have found ways to cheat Android’s permissions system, phoning home your device’s unique identifier and enough data to potentially reveal your location as well. <br /> <br /> Even if you say “no” to one app when it asks for permission to see those personally identifying bits of data, it might not be enough: a second app with permissions you have approved can share those bits with the other one or leave them in shared storage where another app — potentially even a malicious one — can read it. The two apps might not seem related, but researchers say that because they’re built using the same software development kits (SDK), they can access that data, and there’s evidence that the SDK owners are receiving it. It’s like a kid asking for dessert who gets told “no” by one parent, so they ask the other parent. <br /> <br /> According to a study presented at PrivacyCon 2019, we’re talking about apps from the likes of Samsung and Disney that have been downloaded hundreds of millions of times. They use SDKs built by Chinese search giant Baidu and an analytics firm called Salmonads that could pass your data from one app to another (and to their servers) by storing it locally on your phone first. Researchers saw that some apps using the Baidu SDK may be attempting to quietly obtain this data for their own use."
+  },
+  {
+    "reg_dt": "Apr 12 2019 23:33:33",
+    "likes": 100,
+    "bookmarked": false,
+    "author": "Jane Doe",
+    "id": 4,
+    "title": "Microsoft is slipping app ads into Android menus",
+    "body": "If you use a Microsoft app on your Android phone, Microsoft might be quietly advertising its other apps in your “Share” and “Open” menus. Android Police has pointed out that some Microsoft mobile apps add extra options to your menus when you interact with a file. These icons show Microsoft apps that aren’t on your phone, taking up real estate that’s usually reserved for programs you chose to install. <br /> <br /> Android Police tested this with multiple Microsoft apps, and The Verge confirmed that it’s definitely happening with Your Phone Companion, an app for syncing Android and Windows devices. When I shared a photo from my phone with Your Phone Companion installed, my sharing menu included an extra icon labeled “Microsoft OneDrive (Install).” Tapping the icon would open Your Phone Companion, then quickly redirect me to the Google Play Store. Android Police found similar results when, say, opening a PowerPoint presentation file with Microsoft Word installed."
+  },
+  {
+    "reg_dt": "Apr 09 2019 23:33:33",
+    "likes": 12,
+    "bookmarked": false,
+    "author": "Karen William",
+    "id": 5,
+    "title": "Instagram will test a feature that allows users to shadow ban their bullies",
+    "body": "Instagram’s next big fix for online bullying is coming in the form of artificial intelligence-flagged comments and the ability for users to restrict accounts from publicly commenting on their posts. <br /> <br /> The team is launching a test soon that’ll give users the power to essentially “shadow ban” a user from their account, meaning the account holder can “restrict” another user, which makes their comments visible only to themselves. It also hides when the account holder is active on Instagram or when they’re read a direct message. <br /> <br /> The company also separately announced today that it’s rolling out a new feature that’ll leverage AI to flag potentially offensive comments and ask the commenter if they really want to follow through with posting. They’ll be given the opportunity to undo their comment, and Instagram says that during tests, it encouraged “some” people to reflect and undo what they wrote. Clearly, that “some” stat isn’t concrete, and presumably, people posting offensive content know that they’re doing so, but maybe they’ll take a second to reconsider what they’re saying."
+  },
+  {
+    "reg_dt": "Mar 10 2019 23:33:33",
+    "likes": 23,
+    "bookmarked": false,
+    "author": "Karen William",
+    "id": 6,
+    "title": "Flash floods in Washington, DC take their toll on dockless bikes and scooters",
+    "body": "Flash flooding in Washington, DC has thrown the capital region in chaos, with reports of water rescues, traffic closures, and power outages. The floods are also taking their toll on the city’s thousands of bikes and scooters, with images surfacing on social media of dockless vehicles floating forlornly in floodwaters. <br /> <br /> Bird, Jump, and Lime, three of the city’s five operators, told The Verge that their employees were actively engaged in removing scooters from the flooded areas. Another operator, Skip, was ordered by the city to pull its scooters off the streets last month following a battery fire in a storage area. (We’re still waiting to hear back from the other two companies, Lyft and Spin.) Whether those scooters will ever be back in service is an entirely different question."
+  }
+]

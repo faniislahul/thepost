@@ -1,6 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Posts
 
-## Available Scripts
+![alt-text](https://media.giphy.com/media/W3NNDqCgiCqIfGq8H3/giphy.gif)
+
+
+## Before you start
+
+Make sure you install all the dependencies. You can run:
+
+### `npm install`
+Install all the required node modules<br>
+Also make sure you already install node.js on your computer. 
+In case you haven't, you can check here [https://nodejs.org/en/]
+
+
+### `npm start`
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
+
+## How to run
 
 In the project directory, you can run:
 

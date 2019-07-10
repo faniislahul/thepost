@@ -1,17 +1,23 @@
 import * as types from '../actions/ActionTypes';
 
 const initialState = {
-    authStatus: false,
+    posts: null,
+    darkMode: false,
   }
 
 export default (state = initialState, action = {}) => {
     switch (action.type) {
       
-      //AUTHENTICATION
-      case types.SET_AUTH_STATUS:
+      case types.SET_POST_LIST:
         return {
             ...state,
-            authStatus: action.status
+            posts: action.posts
+        };
+
+      case types.SET_DARK_MODE:
+        return {
+            ...state,
+            darkMode: action.mode
         };
 
       default:

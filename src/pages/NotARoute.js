@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as Actions from '../actions/Actions';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import Header from '../components/Header';
 
 
 class NotARoute extends Component{
@@ -12,12 +13,15 @@ class NotARoute extends Component{
 
         }
     }
-    // ---------------------LIFE CYCLE---------------------//
-    // ---------------------FUNCTION---------------------//
-    // ---------------------RENDER---------------------//
     render(){
         return(
-            <div></div>
+            <div className="pages" data-theme={this.props.state.default.darkMode ? "dark" : "light"}>
+              <Header />
+               <div className="post-detail" data-theme={this.props.state.default.darkMode ? "dark" : "light"}>
+                <h1>Oops, it looks like you're getting lost.</h1>
+                <button className="button" onClick={()=>this.props.history.replace('/')}>Back Home</button>
+               </div>
+            </div>
         )
     }
 }
